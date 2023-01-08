@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* > * {
+    font-family: "Poppins", cursive;
+    margin: 0;
+}
+
+h1{
+    width: ;
+    border: 2px solid black;
+    background-color: yellow;
+    border-radius: 5px;
+}
+
+.board{
+    margin-top: 10%;
+    border-radius: 2px;
+    border-color: yellow;
+}
+
+#main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+}
+
+.board {
+    text-align: center;
+}
+
+.board .leaderboard{
+    margin-bottom: 1em;
+}
+
+.duration > button{
+    color: antiquewhite;
+    background-color: purple;
+    width: 100px;
+}
+
+.medal{
+    width: 250px;
+    height: 5px;
+}
+
+.duration > button:hover{
+    background-color:red;
+}
+
+#profile{
+    /* display: flex; */
+
+    margin-top: 3em;
+}
+
+#profile .flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    text-align: left;
+    margin-bottom: 2em;
+}
+
+#profile .flex .item{
+    display: flex;
+    align-items: center;
+}
+
+#profile .flex img{
+    width: 20%;
+    border-radius: 50%;
+}
+
+#profile .flex .info{
+   padding: 1em;
+}
+
+.text-dark{
+    color: white;
+}
+
+span{
+    font-weight: bold;
+    color: yellow;
+}
+
+.board > h1{
+    color: yellowgreen;
+}
